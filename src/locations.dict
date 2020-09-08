@@ -1,0 +1,9 @@
+{  # Lat/Long of points of interest
+    'El Lago': (29.5882, -95.0260),
+    'Dallas': (32.9388, -96.8035),
+    'Garland': (32.8038, -96.6961),
+    'Cleveland': (41.3774, -81.8953),
+    'Charlotte': (35.3879, -80.7102),
+    'Wolfe City': (33.3707, -96.0722),
+    'San Diego': (33.2703, -117.2874),
+}

@@ -1,0 +1,18 @@
+lat/long database
+
+forecast parsing
+-forecast class
+
+radar scraping
+-image class
+-history
+-analysis
+-prediction
+-archiving
+
+satellite scraping
+-image class
+-history
+-analysis
+-prediction
+-archiving
