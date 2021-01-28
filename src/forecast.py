@@ -3,7 +3,11 @@ import urllib3
 import yaml
 
 class Forecast(object):
-    base_url = 'https://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=hi&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=rain&w8=thunder&w9=fog&w10=mhgt&w10u=0&w11=lal&w12=twind&w12u=1&w13=ft20w&w13u=1&w14=rfti&w15=cig&w16=vsby&AheadHour=0&Submit=Submit&FcstType=graphical&textField1={latitude}&textField2={longitude}&site=all&unit=0&dd=&bw='
+    #base_url = 'https://forecast.weather.gov/MapClick.php?w0=t&w1=td&w2=hi&w3=sfcwind&w3u=1&w4=sky&w5=pop&w6=rh&w7=rain&w8=thunder&w9=fog&w10=mhgt&w10u=0&w11=lal&w12=twind&w12u=1&w13=ft20w&w13u=1&w14=rfti&w15=cig&w16=vsby&AheadHour=0&Submit=Submit&FcstType=graphical&textField1={latitude}&textField2={longitude}&site=all&unit=0&dd=&bw='
+    base_url = 'https://forecast.weather.gov/MapClick.php?' \
+               'lat={latitude}&' \
+               'lon={longitude}' \
+               '&FcstType=digitalDWML'
     latitude = 0
     longitude = 0
     
